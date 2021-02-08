@@ -1,7 +1,7 @@
 # style-editing
-working space for style editing.  
+working space for style editing.(Windows environment. With nodejs and docker.)   
 Based on "un-vector-tile-toolkit/onyx" and "unvt/naru."
-
+  
 
 # hosting at localhost
 ```zsh
@@ -25,14 +25,20 @@ cd style-editing
 Edit the config settings (tile location, etc).  
 ```zsh 
 docker run -it --rm -v ${PWD}:/data -p 8836:8836 unvt/nanban
-cd /data
+cd /data  
+npm install  
+npm install sqlite3 (note: I cannot understand, but sqlite was not properly installed with the previous command in my case)  
 node app.js  
+(ctrl + c to stop)
 ```  
 
-(make a style.json at Docker)
+(make a style.json at Docker)  
+(after preparing hocon files)
 ```zsh
+(in docker at /data)  
 rake
 ``` 
+(or you can do this process out of docker)
 
 
 # map check
@@ -43,6 +49,6 @@ At maputnik:
 https://maputnik.github.io/editor/?style=http://localhost:8836/style.json
 
 # refereneces  
-onyx:
-naru:
+onyx: https://github.com/un-vector-tile-toolkit/onyx  
+naru: https://github.com/unvt/naru
 
