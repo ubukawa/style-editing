@@ -1,0 +1,17 @@
+{
+ morganFormat: tiny
+ htdocsPath: public
+ privkeyPath: ./somewhere/privkey.pem
+ fullchainPath: ./somewhere/cert.pem
+ chainPath: ./somewhere/nonono.pem
+ logDirPath: log
+ port: 443
+ tz:{
+  osm-z6: 6
+  un-z5: 5
+ }
+ defaultZ: 6
+ mbtilesDir: mbtiles
+ fontsDir: fonts
+}
+
