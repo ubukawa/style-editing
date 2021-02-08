@@ -1,6 +1,6 @@
-# hase-nanban
-A developer friendly UNVT Dockerfile based on Ubuntu/Intel.  
-unvt/nanban was slightly modified so that it runs hasekura
+# style-editing
+working space for style editing.  
+Based on "un-vector-tile-toolkit/onyx" and "unvt/naru."
 
 
 # hosting at localhost
@@ -14,9 +14,7 @@ pbf should be adde under htdocs. mbtiles should be added under mbtiles. (see app
 
 ```zsh
 node app.js   
-```  
-(check if server runs at http://localhost:8836/hello.html)
-
+```
 
 # hosting at local host (with Docker)
 ```zsh
