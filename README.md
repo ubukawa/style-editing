@@ -7,6 +7,7 @@ Based on "un-vector-tile-toolkit/onyx" and "unvt/naru."
 ```zsh
 git clone https://github.com/ubukawa/style-editing  
 cd style-editing  
+npm install  
 ```  
 Edit the config settings (tile location, etc).  
 You can also add vector tiles (pbf or mbtiles)
