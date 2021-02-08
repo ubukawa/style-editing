@@ -31,14 +31,19 @@ npm install sqlite3 (note: I cannot understand, but sqlite was not properly inst
 node app.js  
 (ctrl + c to stop)
 ```  
+Go http://localhost:8836/index.html to see if the server is running.  
 
-(make a style.json at Docker)  
-(after preparing hocon files)
+# making a style file (with Docker)
+Edit hocon file manually at hocon directory.  
+
 ```zsh
-(in docker at /data)  
+docker run -it --rm -v ${PWD}:/data -p 8836:8836 unvt/nanban
+cd /data  
+npm install 
 rake
 ``` 
-(or you can do this process out of docker)
+You will obtain style.json at htdocs directory.  
+(or you may be able to do this process out of docker)
 
 
 # map check
