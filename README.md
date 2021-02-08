@@ -14,7 +14,9 @@ pbf should be adde under htdocs. mbtiles should be added under mbtiles. (see app
 
 ```zsh
 node app.js   
-```
+```  
+(check if server runs at http://localhost:8836/hello.html)
+
 
 # hosting at local host (with Docker)
 ```zsh
