@@ -2,6 +2,19 @@
 A developer friendly UNVT Dockerfile based on Ubuntu/Intel.  
 unvt/nanban was slightly modified so that it runs hasekura
 
+
+# hosting at localhost
+```zsh
+git clone https://github.com/ubukawa/style-editing  
+cd style-editing  
+```  
+Edit the config settings (tile location, etc).  
+
+```zsh
+node app.js   
+```
+
+
 # use
 ```zsh
 docker rmi hase-nanban  
