@@ -37,7 +37,7 @@ Go http://localhost:8836/index.html to see if the server is running.
 Edit hocon file manually at hocon directory.  
 
 ```zsh
-docker run -it --rm -v ${PWD}:/data -p 8836:8836 unvt/nanban
+docker run -it --rm -v ${PWD}:/data unvt/nanban
 cd /data  
 npm install 
 rake
